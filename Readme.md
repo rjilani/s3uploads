@@ -4,7 +4,7 @@
 ## Requirments see config.ini file under config/config.ini
 
 ##[DEFAULT]
-- BucketName = atspdf 
+- BucketName = test 
 - Region = us-east-1
 - Location = ./files
 - aws_access_key_id = xxxxxxxxx
