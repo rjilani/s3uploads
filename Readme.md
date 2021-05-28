@@ -31,13 +31,13 @@
 }
 ```
 ## How to Load the file
-python python loadfiles_s3.py
+python loadfiles_s3.py
 
 ### if you don't want to install python just run the following executable, note config file has to be in the root folder
 loadfiles_s3.exe
 
 ## List all the files loaded to bucket
-python python listfiles_s3.py
+python listfiles_s3.py
 
 ### if you don't want to install python just run the following executable, note config file has to be in the root folder
 listfiles_s3.exe
