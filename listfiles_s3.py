@@ -23,5 +23,6 @@ if __name__ == '__main__':
         list_files_in_bucket(config['DEFAULT']['BucketName'], config['DEFAULT']['Region'],
                              config['DEFAULT']['aws_access_key_id'],
                              config['DEFAULT']['aws_secret_access_key'])
-    except:
+    except Exception as e:
         print("An exception occurs: " + str(sys.exc_info()[0]))
+        print(e)

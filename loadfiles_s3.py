@@ -26,5 +26,6 @@ if __name__ == '__main__':
         upload_dir(config['DEFAULT']['Location'], config['DEFAULT']['BucketName'], config['DEFAULT']['Region'],
                    config['DEFAULT']['aws_access_key_id'],
                    config['DEFAULT']['aws_secret_access_key'])
-    except:
+    except Exception as e:
         print("An exception occurs: " + str(sys.exc_info()[0]))
+        print(e)
